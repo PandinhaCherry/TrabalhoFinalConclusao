@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/hamburguer.ico" type="image/x-icon">
+    <title>Pedido Torta Mousse De Chocolate</title>
+    <link rel="stylesheet" href="../css/impressão.css" media="print">
+    <link rel="stylesheet" href="../css/paisagemformularios.css" media="screen and (orientation: landscape)">
+    <link rel="stylesheet" href="../css/retrato.css" media="screen and (max-width:768px)">
+</head>
+<body>
+    <header>
+        <h1>Puro Sabor</h1>
+        <nav>
+            <a href="../index.html"><button>FAÇA SEU PEDIDO!</button></a>
+            <a href="../bebidastestediv.html"><button>Escolha Sua Bebida!</button></a>
+            <a href="../sobremesas.html"><button>Complete Sua Refeição Com Uma Deliciosa Sobremesa!</button></a>
+            <table>
+                <tbody>
+                <tr><td>R$8,00</td></tr>
+            </tbody>
+            </table>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <form>
+                <fieldset>
+                <img src="../imagens/sobremesas/tortamoussedechocolatenopote.jpeg" width="500px" height="325px">
+                <p>Torta com base de biscoito triturado e mousse de chocolate.</p>
+                <legend>Dados Do Cliente</legend>
+                <p><label for="inomeCompleto">Nome Completo:</label>
+                <input type="text" name="nomecliente" id="inomeCompleto" required></p> 
+    
+                <p><label for="iendereço">Endereço</label>
+                    <input type="text" name="ruacliente" id="iendereço" required
+                    placeholder="Rua, Praça, Avenida">
+    
+                    <label for="ibairro">Bairro</label>
+                    <input type="text" name="bairrocliente" id="ibairro" required>
+    
+                    <label for="inumero">Número</label>
+                    <input type="text" name="numerocasacliente" id="inumero" required></p>
+            </fieldset>
+
+            <section id="botoes">
+                <input type="submit" value="ENVIAR" id="enviar">
+                <input type="reset" value="LIMPAR" id="limpar">
+            </section>
+        </form>
+        </main>
+    <footer></footer> 
+</body>
+</html>

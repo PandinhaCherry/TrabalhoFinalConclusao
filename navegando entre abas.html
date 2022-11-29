@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<ul class="menu">
+	<li><a href="#tab1">Aba 1</a></li>
+	<li><a href="#tab2">Aba 2</a></li>
+	<li><a href="#tab3">Aba 3</a></li>
+</ul>
+
+<article>
+
+	<section id="tab1" class="active">
+		<p>Conteúdo da aba 1</p>
+	</section>
+
+	<section id="tab2">
+		<p>Conteúdo da aba 2</p>
+	</section>
+
+	<section id="tab3">
+		<p>Conteúdo da aba 3</p>
+	</section>
+
+</article>
+
+<!--botao com link-->
+
+<a href="https://wipsites.com.br"><button>Meu Botão</button></a>
+
+<!--Já se você quer um botão estilizado, pode utilizar este outro código:-->
+
+<a href="https://wipsites.com.br"><button style="background: #069cc2; border-radius: 
+6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Meu Botão</button></a>
+
+<!--botao para voltar ao topo-->
+<!--parte do html-->
+<a class="btn-fixed" href="#top">
+    <span class="material-icons">
+        north
+    </span>
+    </a>
+<!--Código que estou usando com a imagem da seta-->
+	<a href=""><button>FAÇA SEU PEDIDO!</button></a> <a class="btn-fixed" href="#top">
+		<span class="material-icons">
+			<img src="imagens/seta.png" width="90px" height="90px">
+		</span>
+		</a>
+
+	<!--parte do css
+	tem que adicionar em todos os css's-->
+	.btn-fixed{
+		position: fixed;
+		bottom: 30px;
+		rigth: 30px;
+		visibility: hidden;
+	}
+
+	.btn-fixed.visible{
+		visibility: visible;
+	}

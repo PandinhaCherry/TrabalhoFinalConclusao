@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/hamburguer.ico" type="image/x-icon">
+    <title>Pedido Porção Torresmo</title>
+    <link rel="stylesheet" href="../css/impressão.css" media="print">
+    <link rel="stylesheet" href="../css/paisagemformularios.css" media="screen and (orientation: landscape)">
+    <link rel="stylesheet" href="../css/retrato.css" media="screen and (max-width:768px)">
+</head>
+<body>
+    <header>
+        <h1>Puro Sabor</h1>
+        <nav>
+            <a href="../index.html"><button>FAÇA SEU PEDIDO!</button></a>
+            <a href="../bebidastestediv.html"><button>Escolha Sua Bebida!</button></a>
+            <a href="../sobremesas.html"><button>Complete Sua Refeição Com Uma Deliciosa Sobremesa!</button></a>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <form>
+                <fieldset>
+                <img src="../imagens/torresmo.jpg" width="500px" height="325px">
+                <p>600g de torresmo deliciosamente temperado e crocante.</p>
+                <table>
+                    <tbody>
+                    <tr><td>R$30,00</td></tr>
+                </tbody>
+                </table>
+                <legend>Dados Do Cliente</legend>
+                <p><label for="inomeCompleto">Nome Completo:</label>
+                <input type="text" name="nomecliente" id="inomeCompleto" required></p> 
+    
+                <p><label for="iendereço">Endereço</label>
+                    <input type="text" name="ruacliente" id="iendereço" required
+                    placeholder="Rua, Praça, Avenida">
+    
+                    <label for="ibairro">Bairro</label>
+                    <input type="text" name="bairrocliente" id="ibairro" required>
+    
+                    <label for="inumero">Número</label>
+                    <input type="text" name="numerocasacliente" id="inumero" required></p>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Escolha Opcional</legend>
+                
+                <p><input type="radio" name="molhochefe" id="isemmolho0">
+                    <label for="isemmolho0">Com Sachê De Molho Especial Do Chefe</label></p>
+            
+                <p><input type="radio" name="molhochefe" id="isemmolho1">
+                    <label for="isemmolho1">Sem Sachê De Molho Especial Do Chefe</label></p>
+
+                <p><input type="radio" name="molho" id="isemmolho2">
+                    <label for="isemmolho2">Com Sachê De Catchup</label></p>
+
+                <p><input type="radio" name="molho" id="isemmolho3">
+                    <label for="isemmolho3">Sem Sachê De Catchup</label></p>
+
+                <p><input type="radio" name="molho2" id="isemmolho4">
+                    <label for="isemmolho4">Com Sachê De Maionese</label></p>
+    
+                <p><input type="radio" name="molho2" id="isemmolho5">
+                    <label for="isemmolho5">Sem Sachê De Maionese</label></p>
+
+                <p><input type="radio" name="molho3" id="isemmolho6">
+                    <label for="isemmolho6">Com Sachê De Mostarda</label></p>  
+                    
+                <p><input type="radio" name="molho3" id="isemmolho7">
+                    <label for="isemmolho7">Sem Sachê De Mostarda</label></p>
+
+                <p><input type="radio" name="molho4" id="isemmolho8">
+                    <label for="isemmolho8">Com Sachê De Molho Verde</label></p>
+
+                <p><input type="radio" name="molho4" id="isemmolho9">
+                    <label for="isemmolho9">Sem Sachê De Molho Verde</label></p>
+            </fieldset>
+            <section id="botoes">
+                <input type="submit" value="ENVIAR" id="enviar">
+                <input type="reset" value="LIMPAR" id="limpar">
+            </section>
+            </form>
+        </section>
+    </main>
+    <footer></footer> 
+</body>
+</html>

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Unlock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@700&family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Noto+Serif+Khojki:wght@700&family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+img{border-radius: 100px;
+margin-top: 10px;}
+
+button{background-color:  #ED9526;
+margin-left: 20px;
+width: 400px;}
+
+table{margin: auto;
+    font-size: 15pt;}
+
+button:hover{background-color: #E05E30;}
+
+header{background-color: rgba(255, 255, 255, 0.562);
+border-radius: 200px;}
+
+section{background-color: rgba(255, 255, 255, 0.562);
+border-radius: 200px;}
+
+section#botaoseta{text-align: left;}
+
+section#cocacola, #guarana, #pepsi, #fanta, #sprite, #sukita{ height: 500px;}
+
+p{font-family: 'Patrick Hand', cursive;
+    font-size: 15pt;}
+
+h1#titulo{font-family: 'Unlock', cursive;
+font-size: 80pt;}
+
+h1#sob1, #sob2, #sob3, #tituloretrato{font-family: 'Zen Tokyo Zoo', cursive;;
+    color:black;}
+
+h1{font-family: 'Tapestry', cursive;
+font-size: 40pt;}
+
+h1#titulo2{font-family: 'Zen Tokyo Zoo', cursive;;
+color:black;
+font-size: 60pt;}
+
+header{text-align: center;}
+
+body{background-image: url(../imagens/fundoformulariuohamburguerfritasretrato.jpg);
+text-align: center;}
+
+img{width: 400px;
+height: 300px;}
+
+img#seta{width: 100px;
+height: 100px;}
+
+a:visited{color: black;}
+a:hover{color: #F72402;}
+
+.btn-fixed{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    visibility: visible;
+}
+
+.btn-fixed.visible{
+    visibility: visible;
+}
+img#pepsilogo{left: 30px;}
+div{columns: 1;}
+div#burger{columns: 2;}

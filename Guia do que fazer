@@ -1,0 +1,65 @@
+Fazer o layout de impressao como um cardapio
+
+fazer a pagina de pedido como formulario
+
+colocar as quantidades e tamanhos durante a escolha do formulario (ex: fanta opc 1-1 litro-R$5,50, etc)
+
+usar um link em cada produto para ser redirecionado ao formulario para pedido 
+(cada produto deverá ter seu próprio formulário
+o css de cada um desses formulários deve simular uma notinha de pedido para o cozinheiro)
+
+colocar cada produto em uma box, deverao ser todas padronizadas
+
+colocar bebidas como refrigerante e suco para entrega 
+
+colocar combos, porcoes e hamburgueres separados
+
+colocar sobremesas
+
+usar a selecao no formulario de pedidos pra escolher o item
+
+usar aquela funcao de adiocionar numeros para quantidade
+
+usar o javascrip pra fazer o calculo do monte seu hamburguer
+(deixar todos os ingredientes disponiveis 
+adicionar preço em cada ingrediente
+fazer calculos de acordo com os ingredientes selecionados
+criar um outro css de impressao para que simule a notinha de montagem do pedido que o cozinheiro irá receber)
+
+
+porcoes a serem colocadas:
+batata frita (batata frita com cheddar, com cheddar e bacon)
+mandioquinha com linguiça calabresa
+torresmo
+onion ring
+frango crocante 
+
+bebidas:
+coca cola
+pepsi
+sprite
+fanta
+sukita
+guarana
+3L
+2L
+1,5L
+500ml
+lata 350ml
+
+sobremesas:
+torta mousse (de limao, morango, chocolate)
+acai
+sorvete
+bolo de pote
+(chocolate/brigadeiro, ninho, morango com chocolate (sensacao), prestigio)
+
+*adicionar uma imagem de fundo pra cada tipo de formulario(hamburguer/porcao/lanche; bebeidas; sobremesas)
+
+FAZER UM JAVASCRIPT PARA CADA FORMULARIO PARA EXIBIR O SUCESSO DO PEDIDO E SE A CASA É ÍMPAR OU PAR
+CONCERTAR OS BOTOES DAS BEBIDAS!!!
+
+FECHAR TODOS OS A'S DO NAV E ARUMAR O CSS DOS FORMULARIOS DEIXANDO SO OS FIELDSETS
+
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Noto+Serif+Khojki:wght@700&family=Tapestry&display=swap');
+font-family: 'Nabla', cursive;

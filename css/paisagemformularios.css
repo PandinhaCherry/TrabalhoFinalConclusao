@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Unlock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+
+p{font-family: 'Do Hyeon', sans-serif;
+    font-size: 30pt;}
+
+table{font-size: 30pt;
+font-family: 'Do Hyeon', sans-serif;}
+
+img{border-radius: 100px;}
+
+h1{font-family: 'Unlock', cursive;
+    font-size: 80pt;}
+header{background-color: rgba(255, 255, 255, 0.562);
+border-radius: 200px;}
+
+body{background-image:url(../imagens/fundohamburguerfritasrefriretrato.jpg);}
+fieldset{background-color: rgba(255, 255, 255, 0.562);
+border-radius: 100px;}
+
+img{margin-left: 40px;}
+
+section#botaoseta{text-align: left;}
+
+section#cocacola, #guarana, #pepsi, #fanta, #sprite, #sukita{width: 265px; height: 500px;
+background-color: rgba(255, 255, 255, 0.562);}
+
+img#fantalogo{margin-left: 20px;}
+
+button{background-color:  #ED9526;
+    margin-left: 20px;
+    width: 400px;}
+
+    button:hover{background-color: #E05E30;}
+    button#menubebidas:hover{background-color: #E05E30;}
+
+    button#fantabutton{margin-left: 30px;}
+
+    button#menubebidas{background-color:  #ED9526;
+        margin-left: 20px;
+        width: 400px;}
+
+section#cocacola{border-top-left-radius:100px ;
+border-bottom-left-radius:100px ;}
+
+section#sukita{border-top-right-radius:100px ;
+border-bottom-right-radius:100px ;}
+
+h1#titulo{font-family: 'Unlock', cursive;
+font-size: 80pt;}
+
+header{text-align: center;}
+
+legend{margin-left: 80px;
+font-size: 30pt;}
+
+section#botoes{text-align: center;}
+
+input#enviar{background-color:rgb(129, 197, 26) ;
+   height: 50px; 
+   width: 200px ;
+border-radius: 20px;}
+
+input#enviar:hover{background-color:rgb(2, 75, 2) ;
+width: 300px;}
+
+input#limpar{background-color: orange;
+    height: 50px;
+width: 200px;
+border-radius: 20px;}
+
+
+input#limpar:hover{background-color: rgb(196, 7, 7);
+    width: 300px;}
+
+
+.btn-fixed{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    visibility: visible;
+}
+
+.btn-fixed.visible{
+    visibility: visible;
+}
+img#pepsilogo{left: 30px;}
+div{columns: 6;}
+div#burger{columns: 2;}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Unlock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+img{display: none;}
+
+button{display: none;}
+section#botoes{display: none;}
+
+:placeholder-shown{display: none;}
+
+h1{font-family: 'Zen Tokyo Zoo', cursive;;
+    color:black;
+font-size: 30px;}
+
+nav{display: none;}
+
+p{font-family: 'Caveat', cursive;
+font-size: 20pt;}
+
